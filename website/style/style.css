@@ -1,0 +1,89 @@
+/* --- Общие стили для всех страниц --- */
+body {
+    background-color: #f2f2f2;  /* светло-серый фон */
+    font-family: Arial, sans-serif;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* --- Имя на главной странице --- */
+#name {
+    font-size: 36px;
+    font-style: italic;  /* курсив */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* --- Заголовки страниц (Контакты, Галерея) --- */
+.page-title {
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+/* --- Фото на главной --- */
+#myphoto {
+    display: block;        /* делаем фото блочным элементом для центрирования */
+    margin: 0 auto 20px;
+    border: 2px solid black;  /* особенная рамка */
+    padding: 5px;
+}
+
+/* --- Галерея фото --- */
+.gallery-photo {
+    display: block;
+    margin: 0 auto 15px;
+    border: 2px solid pink;
+    padding: 5px;
+}
+
+/* --- Абзацы на главной --- */
+#index-text p {
+    text-align: left;
+    text-indent: 30px;
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+}
+
+/* --- Моя мета --- */
+#my-goal {
+    text-align: center;  /* выравнивание текста по центру */
+    font-weight: bold;   /* оставляем жирным */
+    margin: 20px 0;      /* отступ сверху и снизу */
+}
+
+/* --- Навигация --- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;           /* ссылки в строку */
+    gap: 20px;
+    justify-content: center; /* центрирование ссылок */
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+/* --- Email на странице Контакты --- */
+#email {
+    text-align: center;  /* выравниваем весь текст по центру */
+    margin: 20px 0;
+}
+
+#email a {
+    color: blue;           /* синий цвет ссылки */
+    text-decoration: underline; /* подчеркнутый, как обычно */
+    display: inline;        /* оставляем inline, чтобы ссылка была кликабельной */
+    font-weight: normal;    /* обычный вес шрифта, можно убрать если нужен жирный */
+}
